@@ -2,9 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
+# Installing Packages
+
+To install all required packages run `npm install`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` to start node dev server and angular dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. You can change the port node in bin/.env (you also need to change angular proxy to node port in proxy.conf.json). You can change angular port in angular-cli.json.
+
+Run `npm run nodestart` for a node dev server only. Navigate to `http://localhost:5000/`. The app will automatically reload if you change any of the source files. You can change the port in bin/.env
+
+Run `ng serve` for angular dev server only. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
